@@ -14,6 +14,7 @@
 		388E3C8A195DC1C0001B0CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388E3C88195DC1C0001B0CFF /* Main.storyboard */; };
 		388E3C8C195DC1C0001B0CFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388E3C8B195DC1C0001B0CFF /* Images.xcassets */; };
 		388E3C98195DC1C0001B0CFF /* SpriteKitPhysicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388E3C97195DC1C0001B0CFF /* SpriteKitPhysicsTests.swift */; };
+		388E3CA2195DC367001B0CFF /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388E3CA1195DC367001B0CFF /* Particle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		388E3C91195DC1C0001B0CFF /* SpriteKitPhysicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitPhysicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		388E3C96195DC1C0001B0CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		388E3C97195DC1C0001B0CFF /* SpriteKitPhysicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitPhysicsTests.swift; sourceTree = "<group>"; };
+		388E3CA1195DC367001B0CFF /* Particle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				388E3C80195DC1C0001B0CFF /* AppDelegate.swift */,
 				388E3C82195DC1C0001B0CFF /* GameScene.sks */,
 				388E3C84195DC1C0001B0CFF /* GameScene.swift */,
+				388E3CA1195DC367001B0CFF /* Particle.swift */,
 				388E3C86195DC1C0001B0CFF /* GameViewController.swift */,
 				388E3C88195DC1C0001B0CFF /* Main.storyboard */,
 				388E3C8B195DC1C0001B0CFF /* Images.xcassets */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				388E3C85195DC1C0001B0CFF /* GameScene.swift in Sources */,
+				388E3CA2195DC367001B0CFF /* Particle.swift in Sources */,
 				388E3C87195DC1C0001B0CFF /* GameViewController.swift in Sources */,
 				388E3C81195DC1C0001B0CFF /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				388E3C9D195DC1C0001B0CFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		388E3C9E195DC1C0001B0CFF /* Build configuration list for PBXNativeTarget "SpriteKitPhysicsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				388E3CA0195DC1C0001B0CFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
